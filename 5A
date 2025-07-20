@@ -1,0 +1,21 @@
+# EXP-5
+EXP-5 C++ BY Gandluri Sai Tejas PRN-24070123045
+
+// EXP 5A DETERMINATION OF ODD AND EVEN NUMBERS
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter the given number: ";
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << "The given number is an even number" << endl;
+    } else {
+        cout << "The given number is an odd number" << endl;
+    }
+
+    return 0;
+}
